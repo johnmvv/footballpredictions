@@ -268,7 +268,7 @@ comparePredictions <- function(dataset, n, func, vkl) {
 
 
 # Example usage:
-dataset <- getDataset("C:/Users/johnm/Downloads/dataset.csv")
+dataset <- getDataset("dataset.csv")
 kalmanscore <- list()
 edscore <- list()
 
