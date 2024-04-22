@@ -91,7 +91,7 @@ getprobkalman <- function(teamA, teamB, dataset, vkl){
 }
 
 # Example usage:
-dataset <- getDataset("C:/Users/johnm/Downloads/dataset.csv")
+dataset <- getDataset("dataset.csv")
 games <- list(list("West Ham", "Liverpool"), list("Fulham", "Crystal Palace"), list("Man United", "Burnley"), list("Newcastle", "Sheffield United"), list("Wolves", "Luton"), list("Everton", "Brentford"), list("Aston Villa", "Chelsea"), list("Bournemouth", "Brighton"), list("Tottenham", "Arsenal"), list("Nott'm Forest", "Man City"))
 vkl = 0.935
 
