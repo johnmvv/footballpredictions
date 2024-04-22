@@ -127,7 +127,7 @@ comparePredictions <- function(dataset, n, func, vkl) {
 }
 
 # Example usage:
-dataset <- getDataset("C:/Users/johnm/Downloads/dataset.csv")
+dataset <- getDataset("dataset.csv")
 print(comparePredictions(dataset, 1000, getprobkalman, 0.975))
 print(comparePredictions(dataset, 1000, getprobkalman, 0.935))
 
