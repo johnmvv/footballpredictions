@@ -1,3 +1,5 @@
+# kalman filter inspired model
+
 packageList <- c("readr", "dplyr")
 
 # Automatically installs packages if they are not installed
