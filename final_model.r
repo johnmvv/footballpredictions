@@ -4,7 +4,7 @@ getDataset <- function(datasetLocation){
   return(dataset)
 }
 
-kalmanFilterAllTeams <- function(dataset, vkl) {
+kalmanFilterAllTeams <- function(dataset, vkl) { #NOT A KALMAN FILTER, NAMED AS SUCH FOR CONVENIENCE
   # Get the list of teams
   teams <- unique(c(dataset$HomeTeam, dataset$AwayTeam))
 
